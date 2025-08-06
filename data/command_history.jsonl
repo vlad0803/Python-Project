@@ -1,0 +1,75 @@
+{"timestamp": "2025-07-21T14:40:19.066913", "comanda": "rufe si vase", "dispozitive": ["masina_spalat_rufe", "masina_spalat_vase"]}
+{"timestamp": "2025-07-21T14:41:46.220857", "comanda": "rufe si vase", "dispozitive": ["masina_spalat_rufe", "masina_spalat_vase"]}
+{"timestamp": "2025-07-21T14:49:34.832657", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-21T14:52:03.829053", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-21T14:53:52.168565", "comanda": "rufe si vase", "dispozitive": ["masina_spalat_vase", "masina_spalat_rufe"]}
+{"timestamp": "2025-07-21T14:55:45.152148", "comanda": "rufe siv vase", "dispozitive": ["masina_spalat_vase", "masina_spalat_rufe"]}
+{"timestamp": "2025-07-21T15:17:21.992456", "comanda": "vase si rufe", "dispozitive": ["masina_spalat_vase", "masina_spalat_rufe"]}
+{"timestamp": "2025-07-21T15:20:03.059084", "comanda": "vase", "dispozitive": ["masina_spalat_vase"]}
+{"timestamp": "2025-07-21T15:20:26.017309", "comanda": "vase si rufe", "dispozitive": ["masina_spalat_rufe", "masina_spalat_vase"]}
+{"timestamp": "2025-07-24T08:00:20.815211", "comanda": "rufe si vase", "dispozitive": ["masina_spalat_vase", "masina_spalat_rufe"]}
+{"timestamp": "2025-07-24T08:14:51.182211", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-24T08:27:56.105375", "comanda": "vase si rufe", "dispozitive": ["masina_spalat_rufe", "masina_spalat_vase"]}
+{"timestamp": "2025-07-24T08:32:35.011123", "comanda": "123 rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-24T09:04:40.632234", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-24T09:20:26.659812", "comanda": "rufe si vase", "dispozitive": ["masina_spalat_rufe", "masina_spalat_vase"]}
+{"timestamp": "2025-07-24T09:27:47.286271", "comanda": "rufe si vase", "dispozitive": ["masina_spalat_rufe", "masina_spalat_vase"]}
+{"timestamp": "2025-07-24T09:31:42.356828", "comanda": "rufe si vase", "dispozitive": ["masina_spalat_rufe", "masina_spalat_vase"]}
+{"timestamp": "2025-07-28 12:12:53.369288", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-28 12:14:03.426017", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-28 12:15:24.847384", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-28 12:17:36.384137", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-28 12:20:54.484456", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-28 12:29:19.547799", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-28 12:42:15.587053", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-28 12:43:04.199183", "comanda": "vase", "dispozitive": ["masina_spalat_vase"]}
+{"timestamp": "2025-07-28 12:44:12.134428", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-28 12:45:15.752377", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-28 12:46:33.867666", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-28 12:50:18.027591", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-28 12:52:26.564560", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-28 12:59:14.127652", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-28 12:59:45.161720", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-28 13:00:17.932688", "comanda": "vase", "dispozitive": ["masina_spalat_vase"]}
+{"timestamp": "2025-07-28 13:33:02.944822", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-28 13:33:38.242389", "comanda": "rufe si vase", "dispozitive": ["masina_spalat_vase", "masina_spalat_rufe"]}
+{"timestamp": "2025-07-28 13:45:25.347689", "comanda": "rufe si vase", "dispozitive": ["masina_spalat_rufe", "masina_spalat_vase"]}
+{"timestamp": "2025-07-28 13:56:08.261441", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-28 16:04:08.039815", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-28 17:31:20.398925", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-29 17:34:28.990412", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-30 10:11:59.284428", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-30 10:12:31.269251", "comanda": "vase", "dispozitive": ["masina_spalat_vase"]}
+{"timestamp": "2025-07-30 10:12:59.073344", "comanda": "vase si rufe", "dispozitive": ["masina_spalat_rufe", "masina_spalat_vase"]}
+{"timestamp": "2025-07-30 10:17:01.102115", "comanda": "rufe", "dispozitive": ["masina_spalat_rufe"]}
+{"timestamp": "2025-07-30 11:56:48.790340", "comanda": "rufe si vase", "dispozitive": ["masina_spalat_vase", "masina_spalat_rufe"]}
+{"timestamp": "2025-08-04 09:36:20.971801", "command": "dishwasher", "devices": ["dishwasher"]}
+{"timestamp": "2025-08-04 09:38:30.765265", "command": "dishwasher", "devices": ["dishwasher"]}
+{"timestamp": "2025-08-04 09:43:16.690036", "command": "dishwasher", "devices": ["dishwasher"]}
+{"timestamp": "2025-08-04 09:45:03.348683", "command": "dishwasher", "devices": ["dishwasher"]}
+{"timestamp": "2025-08-04 10:00:22.893687", "command": "dishwasher", "devices": ["dishwasher"]}
+{"timestamp": "2025-08-04 10:04:04.980278", "command": "dishwasher", "devices": ["dishwasher"]}
+{"timestamp": "2025-08-04 10:05:25.920674", "command": "washing machine", "devices": ["washing_machine"]}
+{"timestamp": "2025-08-04 10:06:11.374582", "command": "washing machine and dishwasher", "devices": ["washing_machine", "dishwasher"]}
+{"timestamp": "2025-08-04 10:31:55.703964", "command": "dishwasher", "devices": ["dishwasher"]}
+{"timestamp": "2025-08-04 10:37:56.915424", "command": "dishwasher", "devices": ["dishwasher"]}
+{"timestamp": "2025-08-04 10:43:14.260380", "command": "washing machine", "devices": ["washing_machine"]}
+{"timestamp": "2025-08-04 10:45:37.681292", "command": "I want to wash dishes", "devices": ["dishwasher"]}
+{"timestamp": "2025-08-04 10:47:18.063144", "command": "Please wash my clothes and dishes", "devices": ["dishwasher"]}
+{"timestamp": "2025-08-04 11:00:42.467839", "command": "I want to wash clothes and dishes", "devices": ["washing_machine", "dishwasher"]}
+{"timestamp": "2025-08-04 14:05:46.854257", "command": "dishwasher", "devices": ["dishwasher"]}
+{"timestamp": "2025-08-04 14:13:09.017096", "command": "dishwasher", "devices": ["dishwasher"]}
+{"timestamp": "2025-08-04 14:13:43.341033", "command": "dishwasher and washing machine", "devices": ["washing_machine", "dishwasher"]}
+{"timestamp": "2025-08-04 14:30:09.207993", "command": "dishwasher", "devices": ["dishwasher"]}
+{"timestamp": "2025-08-04 14:31:24.535714", "command": "washing machine", "devices": ["washing_machine"]}
+{"timestamp": "2025-08-04 14:33:52.611683", "command": "dishwasher", "devices": ["dishwasher"]}
+{"timestamp": "2025-08-04 14:35:54.966504", "command": "dishwasher", "devices": ["dishwasher"]}
+{"timestamp": "2025-08-04 14:38:39.568389", "command": "washing machine", "devices": ["washing_machine"]}
+{"timestamp": "2025-08-04 14:43:10.405107", "command": "dishwasher", "devices": ["dishwasher"]}
+{"timestamp": "2025-08-04 14:44:36.747268", "command": "dishwasher", "devices": ["dishwasher"]}
+{"timestamp": "2025-08-04 14:48:47.938524", "command": "dishwasher and washing machine", "devices": ["washing_machine", "dishwasher"]}
+{"timestamp": "2025-08-04 15:02:29.821521", "command": "washing machine", "devices": ["washing_machine"]}{"timestamp": "2025-08-06 08:32:08.949695", "command": "washing machine", "devices": ["washing_machine"]}
+{"timestamp": "2025-08-06 08:33:09.690425", "command": "dishwasher", "devices": ["dishwasher"]}
+{"timestamp": "2025-08-06 08:34:42.269543", "command": "dishwasher", "devices": ["dishwasher"]}
+{"timestamp": "2025-08-06 08:34:45.059082", "command": "dishwasher", "devices": ["dishwasher"]}
+{"timestamp": "2025-08-06 08:36:54.662573", "command": "i want to wash clothes and dishes", "devices": ["washing_machine", "dishwasher"]}
