@@ -1,0 +1,185 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+}
+h1 {
+  text-align: center;
+  margin: 0.5em 0;
+}
+.top-controls {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0.5em;
+}
+button, select, input[type="text"] {
+  font-size: 0.9em;
+  padding: 6px 10px;
+}
+#status, #fallbackMessage {
+  text-align: center;
+  font-size: 0.85em;
+}
+#fallbackMessage {
+  color: darkred;
+  display: none;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 2.2fr 2.8fr 4fr;
+  gap: 10px;
+  padding: 0 1em;
+  height: calc(100vh - 200px);
+  box-sizing: border-box;
+}
+
+.main > .canvas:nth-child(1),
+.main > .canvas:nth-child(2),
+.main > .canvas:nth-child(3) {
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#patternTitle {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+  display: inline-block;
+  padding: 0 5px 3px 0;
+  border-bottom: 2px solid #008000;
+  max-width: max-content;
+  white-space: nowrap;
+}
+
+#pattern {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  flex: 1;
+  overflow: hidden;
+}
+
+.pattern-device {
+  border: 1px solid #ddd;
+  padding: 0.5em;
+  border-radius: 5px;
+  background: #fafafa;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.canvas {
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 1em;
+  font-size: 0.85em;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+  border-radius: 6px;
+  min-width: 0;
+}
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+#productionChart {
+  max-height: 350px;
+  width: 100%;
+  display: block;
+}
+
+#relevantStatistics {
+  margin-top: 1em;
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+  overflow-y: auto;
+}
+
+#statistics {
+  margin-top: 1em;
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+#legend {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  background: #f7f7f7;
+  padding: 10px 14px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  font-size: 0.85em;
+  z-index: 999;
+  display: none;
+}
+#legend span {
+  display: block;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
+.stat-device {
+  flex: 1 1 50%;
+  border: 1px solid #ddd;
+  padding: 0.5em;
+  border-radius: 5px;
+  background: #fafafa;
+  box-sizing: border-box;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+h3, h4 {
+  margin: 0.5em 0 0.3em;
+}
+p {
+  margin: 0.3em 0;
+}
+
+@media (max-width: 768px) {
+  .main {
+    display: block;
+    height: auto;
+  }
+  .canvas {
+    max-height: 220px;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+  }
+  #productionChart {
+    max-height: 180px;
+  }
+  #pattern {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  .pattern-device {
+    margin-bottom: 1em;
+    max-height: none;
+  }
+  #statistics {
+    flex-wrap: wrap;
+    max-height: none;
+  }
+  #relevantStatistics {
+    flex-wrap: wrap;
+    max-height: none;
+  }
+  .stat-device {
+    max-height: none;
+    flex: 1 1 100%;
+  }
+}

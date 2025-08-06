@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Energy Consumption Monitoring System</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="legend" class="hidden" >
+    <strong>Legend:</strong><br>
+    <span>🟢 Routine</span><br>
+    <span>🔴 Religious holiday</span><br>
+    <span>🟡 Routine exception</span>
+  </div>
+
+  <h1>🔌 AI Energy Monitoring System</h1>
+  <div class="top-controls">
+    <button onclick="startRecording()">🎙️ Record</button>
+    <button onclick="generateSolarProduction()">🔄 Generate solar production</button>
+    <input id="commandInput" type="text" placeholder="Type your command..." />
+    <button onclick="sendCommand()">📨 Send</button>
+    <select id="daySelect" onchange="displayChart()" style="display:none;"></select>
+  </div>
+  <p id="status">Waiting...</p>
+  <p id="fallbackMessage" class="hidden">📢 If voice recognition does not work, type your command manually.</p>
+  <p id="errorMessages" style="color: darkred; white-space: pre-wrap; text-align: center;"></p>
+
+  <div class="main">
+    <div class="canvas">
+   <p id="bonusThresholdInfo" class="hidden" style="text-align: center; font-weight: bold; color: darkgreen; font-size: 1em; margin-bottom: 0.5em;"></p>
+   <div id="result" class="hidden"></div>
+    </div>
+
+    <div class="canvas">
+      <div id="patternTitle" class="hidden">📊 Usage pattern</div>
+      <div id="pattern" class="hidden">
+        <div class="pattern-device" id="pattern-device-1"></div>
+        <div class="pattern-device" id="pattern-device-2"></div>
+      </div>
+      <div id="relevantStatistics" class="hidden"></div>
+    </div>
+    <div class="canvas">
+      <div id="chartContainer">
+        <canvas id="productionChart"></canvas>
+        <hr style="margin: 1em 0; border: none; border-top: 1px solid #ccc;">
+        <div id="statistics" class="hidden"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
