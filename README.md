@@ -68,7 +68,7 @@ This interface supports both text and **live voice commands**.
 With this frontend, you can:
 
   - Submit commands as plain text (e.g., "turn on washing machine")
-- Use your microphone to record voice commands in Romanian
+- Use your microphone to record voice commands
 - Trigger device detection, pattern analysis, and recommendation generation
 - View analysis results, scores, and recommendations directly in the interface
 
@@ -80,4 +80,5 @@ With this frontend, you can:
 
 #### View results: pattern analysis, predicted usage times, and AI-generated recommendations
 
-#### Voice commands are transcribed on the backend using OpenAI Whisper (Romanian supported).
+#### Voice commands are transcribed on the backend using OpenAI Whisper.
+
