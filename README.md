@@ -23,6 +23,7 @@ The system receives commands as text (e.g., "turn on washing machine"), detects 
 - `front.html` – Basic UI for interacting with the API
 - `script.js` – JavaScript logic for frontend interactivity
 - `style.css` – CSS styles for the frontend
+- `Dockerfile` – Build instructions for the Docker image
 
 ### Data directory (`data/`)
 - Contains CSV consumption data, AI stats JSON, model pickles, and `command_history.jsonl` command log
@@ -83,6 +84,3 @@ With this frontend, you can:
 #### View results: pattern analysis, predicted usage times, and AI-generated recommendations
 
 #### Voice commands are transcribed on the backend using OpenAI Whisper.
-
-
-
