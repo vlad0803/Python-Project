@@ -76,7 +76,7 @@ With this frontend, you can:
 - View analysis results, scores, and recommendations directly in the interface
 
 #### Open `front.html` in your browser
-
+> **Note:** Make sure that `script.js` and `style.css` are in the same folder as `front.html`. Otherwise, the page will not display or function correctly.
 #### Interact using:
    - Text input – send typed commands
    - Voice input – click the microphone button to record and submit a vocal command
@@ -84,3 +84,4 @@ With this frontend, you can:
 #### View results: pattern analysis, predicted usage times, and AI-generated recommendations
 
 #### Voice commands are transcribed on the backend using OpenAI Whisper.
+
