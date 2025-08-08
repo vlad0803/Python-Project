@@ -1,5 +1,6 @@
 # Energy Consumption Analyzer – FastAPI Microservice
 
+**Author:** Vlad V. Muresan
 
 This application is available as a Docker image and can be run directly as a container. It analyzes energy consumption data for household devices (e.g., washing machine, dishwasher) and provides usage recommendations based on detected usage patterns and estimated solar production.
 
@@ -84,4 +85,5 @@ With this frontend, you can:
 #### View results: pattern analysis, predicted usage times, and AI-generated recommendations
 
 #### Voice commands are transcribed on the backend using OpenAI Whisper.
+
 
