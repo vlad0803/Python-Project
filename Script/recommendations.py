@@ -122,7 +122,7 @@ class RecommendationScoreCalculator:
             model.is_habit(hour_str, day_str) for model in self.models
         )
         if is_habit and row["energy_kwh"] >= bonus_threshold:
-            return float(row["energy_kwh"] + bonus_threshold)
+            return float(row["energy_kwh"] + 1.5)
         return float(row["energy_kwh"])
 
 
@@ -181,3 +181,4 @@ class RecommendationCalculator:
                 rec = creator.create(row)
                 results.append(rec.dict())
         return results, threshold
+
