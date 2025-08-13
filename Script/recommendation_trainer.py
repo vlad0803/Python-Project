@@ -5,7 +5,7 @@ import joblib
 from itertools import product
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, confusion_matrix
+from sklearn.metrics import accuracy_score, confusion_matrix, f1_score, precision_score, recall_score, classification_report
 
 
 class DataLoader:
@@ -98,7 +98,22 @@ class Evaluator:
     @staticmethod
     def report_accuracy(y_test, y_pred, device):
         acc = accuracy_score(y_test, y_pred)
-        print(f"📊 Test accuracy for {device}: {acc:.2%}")
+        print(f"Accuracy for {device}: {acc:.4f}")
+
+    @staticmethod
+    def report_precision(y_test, y_pred, device):
+        precision = precision_score(y_test, y_pred)
+        print(f"Precision for {device}: {precision:.4f}")
+
+    @staticmethod
+    def report_recall(y_test, y_pred, device):
+        recall = recall_score(y_test, y_pred)
+        print(f"Recall for {device}: {recall:.4f}")
+
+    @staticmethod
+    def report_f1(y_test, y_pred, device):
+        f1 = f1_score(y_test, y_pred)
+        print(f"F1 score for {device}: {f1:.4f}")
 
     @staticmethod
     def report_confusion_matrix(y_test, y_pred):
@@ -109,6 +124,11 @@ class Evaluator:
     def report_label_distribution(y_all):
         print("📊 Label distribution:")
         print(y_all.value_counts())
+
+    @staticmethod
+    def report_classification_report(y_test, y_pred):
+        print("Classification report:")
+        print(classification_report(y_test, y_pred))
 
     @staticmethod
     def report_prediction_distribution(y_pred):
@@ -146,18 +166,20 @@ class RecommendationModelTrainer:
         # 4. Split data
         X_train, X_test, y_train, y_test = DataSplitter.split(features)
 
-        # 5. Train model
+        # 5. Train and evaluate GradientBoosting model
+        print(f"\nTraining GradientBoosting model...")
         builder = ModelBuilder()
         builder.train(X_train, y_train)
         y_pred = builder.predict(X_test)
-
-        # 6. Evaluate
+        print(f"Results for GradientBoosting:")
         Evaluator.report_accuracy(y_test, y_pred, device)
+        Evaluator.report_precision(y_test, y_pred, device)
+        Evaluator.report_recall(y_test, y_pred, device)
+        Evaluator.report_f1(y_test, y_pred, device)
         Evaluator.report_confusion_matrix(y_test, y_pred)
+        Evaluator.report_classification_report(y_test, y_pred)
         Evaluator.report_label_distribution(features["label"])
         Evaluator.report_prediction_distribution(y_pred)
-
-        # 7. Save model
         ModelSaver.save(builder.get_model(), self.model_output)
 
 
