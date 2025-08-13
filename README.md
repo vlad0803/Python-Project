@@ -17,7 +17,7 @@ The system receives commands as text (e.g., "turn on washing machine"), detects 
 - `recommendations.py` – Generates device usage recommendations using ML
 - `cycle_detection.py` – Detects consumption cycles in data
 - `solar_production_simulation.py` – Simulates solar production
-- `recommendation_trainer.py` – Trains RandomForest recommendation models
+- `recommendation_trainer.py` – Trains GradientBoosting recommendation models
 - `models.py` – Pydantic schemas for API requests and responses
 
 ### Root files
@@ -85,5 +85,6 @@ With this frontend, you can:
 #### View results: pattern analysis, predicted usage times, and AI-generated recommendations
 
 #### Voice commands are transcribed on the backend using OpenAI Whisper.
+
 
 
